@@ -39,11 +39,11 @@ export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
           ) : (
             <div
               className="d-flex align-items-center flex-columns"
-              style={{ gap: "5rem" }}
+              style={{ gap: ".5rem" }}
             >
               <div
                 className="d-flex align-items-center justify-content-center"
-                style={{ gap: "5rem" }}
+                style={{ gap: ".5rem" }}
               >
                 <Button onClick={() => decreaseCartQuantity(id)}>-</Button>
                 <div>
